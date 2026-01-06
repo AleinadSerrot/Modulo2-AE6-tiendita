@@ -1,0 +1,14 @@
+https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset1_eevee.jpg
+https://github.com/AleinadSerrot/borradortiendaAE6/blob/main/assetsCarr/asset2_flareon.jpg
+https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset2_flareon.jpg
+https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset3_jolteon.jpg
+https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset4_vaporeon.jpg
+https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset5_espeon.jpg
+https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset6_umbreon.jpg
+https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset7_leafeon.jpg
+https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset8_glaceon.jpg
+https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset9_sylveon.jpg
+
+
+logo
+https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsLogo/LogoSoftSkullTiendita.png

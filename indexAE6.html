@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Skull Store AE6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesAE6.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-personalizada">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">
+                <img src="https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsLogo/LogoSoftSkullTiendita.png" alt="Logo Soft Skull" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#acerca">Acerca de</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ENCABEZADO -->
+    <header id="inicio" class="encabezado-principal">
+        <div class="container">
+            <h1 class="texto-bienvenida">Bienvenido a Soft Skull Store</h1>
+            <p class="mision-texto">Arte cute, geek y spooky de alta calidad, transformando ideas digitales en experiencias visuales únicas</p>
+        </div>
+    </header>
+
+    <!-- SECCIÓN ACERCA -->
+    <section id="acerca" class="seccion-contenido">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 columna-item">
+                    <h3>Productos digitales</h3>
+                    <p>Recursos y material digital gráfico</p>
+                    <button class="btn-bootstrap-custom btn-primario">Buscar</button>
+                </div>
+                <div class="col-md-4 columna-item">
+                    <h3>Venta de Arte</h3>
+                    <p>"Cute, geek and spooky art"</p>
+                    <button class="btn-bootstrap-custom btn-secundario">Vitrina</button>
+                </div>
+                <div class="col-md-4 columna-item">
+                    <h3>¿Cómo contactarnos?</h3>
+                    <p>Tienda online, RRSS</p>
+                    <button class="btn-bootstrap-custom btn-info-estilo">Contacto</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARRUSEL -->
+    <section class="carousel-section">
+        <div id="productosCarrusel" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width:400px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset1_eevee.jpg" class="d-block w-100" alt="Eevee">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset2_flareon.jpg" class="d-block w-100" alt="Flareon">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset3_jolteon.jpg" class="d-block w-100" alt="Jolteon">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#productosCarrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#productosCarrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PRODUCTOS -->
+    <section id="productos" class="seccion-productos">
+        <div class="container">
+            <h2 class="mb-4 text-center">Nuestros Productos</h2>
+            <div class="producto-lista">
+                <!-- Productos -->
+                <div class="producto-item card" data-nombre="Eevee">
+                    <img src="https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset1_eevee.jpg" class="card-img-top" alt="Eevee">
+                    <div class="card-body">
+                        <h5 class="card-title">Eevee</h5>
+                        <button class="btn-bootstrap-custom btn-primario btn-favorito">❤ Favorito</button>
+                    </div>
+                </div>
+                <div class="producto-item card" data-nombre="Flareon">
+                    <img src="https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset2_flareon.jpg" class="card-img-top" alt="Flareon">
+                    <div class="card-body">
+                        <h5 class="card-title">Flareon</h5>
+                        <button class="btn-bootstrap-custom btn-secundario btn-favorito">❤ Favorito</button>
+                    </div>
+                </div>
+                <div class="producto-item card" data-nombre="Jolteon">
+                    <img src="https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset3_jolteon.jpg" class="card-img-top" alt="Jolteon">
+                    <div class="card-body">
+                        <h5 class="card-title">Jolteon</h5>
+                        <button class="btn-bootstrap-custom btn-info-estilo btn-favorito">❤ Favorito</button>
+                    </div>
+                </div>
+                <div class="producto-item card" data-nombre="Vaporeon">
+                    <img src="https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset4_vaporeon.jpg" class="card-img-top" alt="Vaporeon">
+                    <div class="card-body">
+                        <h5 class="card-title">Vaporeon</h5>
+                        <button class="btn-bootstrap-custom btn-primario btn-favorito">❤ Favorito</button>
+                    </div>
+                </div>
+                <div class="producto-item card" data-nombre="Espeon">
+                    <img src="https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset5_espeon.jpg" class="card-img-top" alt="Espeon">
+                    <div class="card-body">
+                        <h5 class="card-title">Espeon</h5>
+                        <button class="btn-bootstrap-custom btn-secundario btn-favorito">❤ Favorito</button>
+                    </div>
+                </div>
+                <div class="producto-item card" data-nombre="Umbreon">
+                    <img src="https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset6_umbreon.jpg" class="card-img-top" alt="Umbreon">
+                    <div class="card-body">
+                        <h5 class="card-title">Umbreon</h5>
+                        <button class="btn-bootstrap-custom btn-info-estilo btn-favorito">❤ Favorito</button>
+                    </div>
+                </div>
+                <div class="producto-item card" data-nombre="Leafeon">
+                    <img src="https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset7_leafeon.jpg" class="card-img-top" alt="Leafeon">
+                    <div class="card-body">
+                        <h5 class="card-title">Leafeon</h5>
+                        <button class="btn-bootstrap-custom btn-primario btn-favorito">❤ Favorito</button>
+                    </div>
+                </div>
+                <div class="producto-item card" data-nombre="Glaceon">
+                    <img src="https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset8_glaceon.jpg" class="card-img-top" alt="Glaceon">
+                    <div class="card-body">
+                        <h5 class="card-title">Glaceon</h5>
+                        <button class="btn-bootstrap-custom btn-secundario btn-favorito">❤ Favorito</button>
+                    </div>
+                </div>
+                <div class="producto-item card" data-nombre="Sylveon">
+                    <img src="https://raw.githubusercontent.com/AleinadSerrot/borradortiendaAE6/refs/heads/main/assetsCarr/asset9_sylveon.jpg" class="card-img-top" alt="Sylveon">
+                    <div class="card-body">
+                        <h5 class="card-title">Sylveon</h5>
+                        <button class="btn-bootstrap-custom btn-info-estilo btn-favorito">❤ Favorito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section id="contacto" class="formulario-seccion">
+        <div class="container">
+            <form class="formulario-estilizado">
+                <div class="campo">
+                    <label>Nombre</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="campo">
+                    <label>Correo electrónico</label>
+                    <input type="email" class="form-control">
+                </div>
+                <div class="campo">
+                    <label>Comentarios</label>
+                    <textarea class="form-control" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn-envio">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer-final">
+        <div class="container">
+            <p>Creado por AleinadSerrot</p>
+            <p>Todos los derechos reservados &copy; 2025</p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scriptAE6.js"></script>
+</body>
+</html>

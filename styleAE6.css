@@ -1,124 +1,237 @@
-/* Navbar fija */
+/* 1) barra de navegación fija */
 .navbar-personalizada {
     position: fixed;
     top: 0;
     width: 100%;
-    min-height: 80px;
+    min-height: 70px;
     background-color: #212529 !important; 
     z-index: 1030;
     display: flex;
     align-items: center;
 }
 
+/*boton hamburguesa*/
 .navbar-toggler {
-    border-color: rgba(255,255,255,0.5) !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(213,27,145,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(213, 27, 145, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
-.navbar-brand img { height: 100px; width:auto; }
-
-.navbar-nav .nav-link { color: #c51972ff; font-weight:500; transition:0.3s; }
-.navbar-nav .nav-link:hover { color:#fff !important; }
-
-/* Header */
-.encabezado-principal { 
-    margin-top: 100px; 
-    padding: 80px 0; 
-    background:#fff; 
-    text-align:center; 
+.navbar-brand img {
+    height: 80px;
+    width: auto;
 }
 
-.texto-bienvenida { font-size:3.5rem; font-weight:700; margin-bottom:20px; }
-.mision-texto { font-size:1.25rem; color:#6c757d; max-width:800px; margin:0 auto; }
-
-/* Secciones */
-.seccion-contenido, .seccion-productos, .carousel-section, .formulario-seccion {
-    padding:150px 0;
+.navbar-nav .nav-link {
+    color: #c51972ff !important;
+    font-weight: 500;
+    transition: color 0.3s;
 }
 
-.columna-item { text-align:center; padding:20px; flex:1 0 300px; }
-
-/* Botones */
-.btn-bootstrap-custom { 
-    display:inline-block; 
-    font-weight:400; 
-    text-align:center; 
-    cursor:pointer; 
-    padding:0.375rem 0.75rem; 
-    border-radius:0.375rem; 
-    border:1px solid transparent; 
-    transition:0.2s; 
-    color:#fff; 
-    text-decoration:none; 
+.navbar-nav .nav-link:hover {
+    color: #ffffff !important;
 }
 
-.btn-primario { background-color:#770972ff; border-color:#770972ff; }
-.btn-primario:hover { background-color:#3e043eff; }
-
-.btn-secundario { background-color:#6608ad; border-color:#6608ad; }
-.btn-secundario:hover { background-color:#400071ff; }
-
-.btn-info-estilo { background-color:#c054baff; border-color:#c054baff; color:#fff; }
-.btn-info-estilo:hover { background-color:#770972ff; }
-
-/* Formulario */
-.formulario-seccion { background:#f8f9fa; }
-.formulario-estilizado { 
-    max-width:500px; 
-    margin:0 auto; 
-    background:#da0aa2ae; 
-    padding:30px; 
-    border-radius:8px; 
-    box-shadow:0 4px 6px rgba(0,0,0,0.05);
-}
-.campo { margin-bottom:15px; }
-.campo label { display:block; margin-bottom:5px; font-weight:500; }
-.btn-envio { width:100%; padding:10px; background:#212529; color:#fff; border:none; border-radius:0.375rem; font-size:1rem; cursor:pointer; }
-.btn-envio:hover { background-color:#424649; }
-
-/* Productos y favoritos */
-.seccion-productos .producto-lista {
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:20px;
+/* 2) encabezado principal */
+.encabezado-principal {
+    margin-top: 80px; 
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    text-align: center;
 }
 
-.producto-item { width:200px; transition:0.3s; }
-.producto-item .card { border:2px solid transparent; transition:0.3s; }
-.producto-item.favorito .card { border:2px solid #c51972; }
-
-.producto-item .card-img-top { 
-    width:100%; 
-    height:120px; 
-    object-fit:contain; 
+.texto-bienvenida {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
-#mensajeFavorito { font-weight:600; color:#c51972; text-align:center; margin-bottom:20px; }
-
-/* Carrusel */
-.carousel-section .carousel-inner img { 
-    height:100px; 
-    object-fit:cover; 
+.mision-texto {
+    font-size: 1.2rem;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-/* Footer */
-.footer-final { padding:40px 0; text-align:center; background:#fff; border-top:1px solid #dee2e6; }
 
-/* Responsive */
-@media (max-width:768px){
-    .navbar-collapse { background-color:#212529; }
-    .navbar-nav { text-align:center; }
-    .navbar-nav .nav-link { color:#fff !important; padding:10px 0; }
 
-    .texto-bienvenida { font-size:2.2rem; }
-    .encabezado-principal { margin-top:120px; padding:40px 20px; }
+/* 3) seccón servcios de las tres columnas */
+.seccion-servicios {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
 
-    .producto-lista { flex-direction:column; align-items:center; }
-    .producto-item { width:80%; max-width:250px; }
+.columna-item {
+    text-align: center;
+    padding: 20px;
+}
 
-    .carousel-section .carousel-inner img { height:80px; }
+/* estilo base para los tres botones */
+.btn-custom {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s; /* transición */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* botón buscar */
+.btn-buscar { 
+    background-color: rgb(131, 19, 123); 
+}
+.btn-buscar:hover { 
+    background-color: rgb(52, 8, 118) !important;
+    transform: translateY(-2px);  /* "salto" del botón */
+}
+
+/* botón vitrina */
+.btn-vitrina { 
+    background-color: #6608ad; 
+}
+.btn-vitrina:hover { 
+    background-color: rgb(131, 19, 123);  !important; 
+    transform: translateY(-2px);
+}
+
+/* botón contacto */
+.btn-contacto { 
+    background-color: #c054baff; 
+
+}
+.btn-contacto:hover { 
+    background-color: rgb(149, 3, 139) !important; 
+    transform: translateY(-2px);
+}
+
+/* 4) carrusel (3 eeveelutions a la vez) */
+.seccion-carrusel {
+    background-color: #212529;
+    padding-top: 80px 0;
+    padding-bottom: 50px;
+}
+
+.img-fluida-carr {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+    padding: 15px;
+}
+
+/* 5) galería de imagenes */
+.seccion-galeria {
+    padding: 80px 0;
+    text-align: center;
+    
+}
+
+.contenedor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item-galeria {
+    flex: 0 1 300px;
+}
+
+.tarjeta-producto {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 15px;
+    transition: all 0.3s ease;
+    background: #fff;
+}
+
+.img-carta {
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
+}
+
+/* botón favoritos */
+.btn-favorito {
+    background-color: transparent;
+    border: 1px solid #770972ff;
+    color: #770972ff;
+    padding: 8px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.btn-favorito:hover {
+    background-color: #770972ff;
+    color: #fff;
+}
+
+/* resaltado con jquery*/
+.producto-favorito {
+    border: 3px solid rgb(108, 40, 148) !important;
+    background-color: #fff0f9 !important;
+    transform: scale(1.05);
+}
+
+.btn-favorito.active {
+    background-color: rgb(108, 40, 148) !important;
+    color: white !important;
+    border-color: rgb(108, 40, 148) !important;
+}
+
+/* mensaje dinámico */
+#mensaje-favorito {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    z-index: 2000;
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: white;
+    display: none;
+}
+
+/* 6) formulario */
+.seccion-formulario {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.formulario-estilizado {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #da0aa2ae;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.campo { margin-bottom: 15px; text-align: left; }
+.campo label { display: block; color: white; margin-bottom: 5px; }
+.campo input, .campo textarea { width: 100%; border-radius: 5px; border: none; padding: 10px; }
+
+.btn-envio {
+    width: 100%;
+    padding: 10px;
+    background-color: #212529;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 7) pie de página*/
+
+.footer-final {
+    padding: 40px 0;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
 }
